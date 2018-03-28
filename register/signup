@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie"> <!--<![endif]-->
+
+	<head>
+    <title>Sign Up</title>
+	<link rel="shortcut icon" href="../static/PR6xHdCZue0iXtOSLxdnLFNwFhsJWm1GvS9WpC1tgSf.png" type="image/x-icon" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    
+	
+    <meta name="pageId" content="register.signup"/>
+    
+    
+    
+    
+    
+    
+	
+
+	
+	
+	
+
+	
+	
+	<script src="../static/t5OGphSUjwdNOoxNKgdRTTh1RBtmzhMXxHDYYeR4lYj.js" type="text/javascript" ></script>
+<script src="../static/VRgUIQOYhdWjr0Idi6NulTsXWF7pxgDbkawD4PMgEf5.js" type="text/javascript" ></script>
+<script src="../static/wrzG7AkelOePVj68wuFLuFSrVSWeq8kInNIwYOdYfli.js" type="text/javascript" ></script>
+<link href="../static/2ooF12gUB6IUZUWmMzSB7gN4d0W4dLPNPhwH8iaTBGX.css" type="text/css" rel="stylesheet" media="screen, projection" />
+<script src="../static/XlFhPFDdMLCcCFWSlUBN28rljKnPuFxGLT5inuGTXjw.js" type="text/javascript" ></script>
+<link href="../static/IrmZEhigtU3YiqKSOHv8bPtIkruPyxuYIVkn1TKuwWx.css" type="text/css" rel="stylesheet" media="screen, projection" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen, projection" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" type="text/css" rel="stylesheet" media="screen, projection" />
+<link href="../static/51906kAHfCaxMPeF7qy9N6eQ9SOdc9gd910xxjIw8JL.css" type="text/css" rel="stylesheet" media="screen, projection" />
+<script type="text/javascript">
+    	Streamr = Streamr || {}
+		Streamr.projectWebroot = 'https://www.streamr.com/'
+		Streamr.controller = 'register'
+		Streamr.action = 'signup'
+		
+    </script>
+    
+    <meta name="layout" content="login"/>
+    
+
+	
+
+	<!-- reCAPTCHA script-->
+	<script src='https://www.google.com/recaptcha/api.js' async></script>
+
+</head>
+
+	
+    <body class="no-main-menu page-signin-alt selected-theme login-page show-sign-in">
+		<div class="signin-header">
+			<a href="../index.html">
+				<img src="../static/RUr00AEY1x2HzNj4ELtbA1Un6r79AKQpUHZbrwGj20K.png" />
+			</a>
+			<a href="signup" class="btn btn-primary btn-sign-up">Sign Up</a>
+			<a href="../login/index" class="btn btn-primary btn-sign-in">Sign In</a>
+		</div> <!-- / .header -->
+		
+	<h1 class="form-header">Sign Up</h1>
+
+	<form action="signup" method="post" name="signupForm" class="panel" id="signupForm" >
+		
+
+		<div class="form-group ">
+			<input type="text" name="username" id="username"
+				class="form-control input-lg"
+				placeholder="Email"
+				value=""
+				autofocus>
+
+			
+		</div>
+
+		 
+		<div class="g-recaptcha" data-sitekey="6LfdGkUUAAAAAEfZtKGnsupmUcHCu7UfBbpnEOGE" style="margin: 10px 0;"></div>
+		<button id="signUpButton" class="btn btn-primary btn-block btn-lg">
+			Sign Up
+		</button>
+	</form>
+
+		<script src="../static/CGsMCqHKICVVBdreERGMxWkBZAY6FEcGjQPW4mVzbuR.js" type="text/javascript" ></script>
+<script src="../static/P6qvJbChVi3McWYfukWCREBXuT9oKHlLIcqfgTEKl7s.js" type="text/javascript" ></script>
+<script src="../static/QFY4JuavqHScXKevxHNP9vb8MF2xbr2k0ds4swV7RFH.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+	function reCaptchaSuccess(response) {
+		$("form[name=signupForm]").submit()
+	}
+	</script>	
+    </body>
+</html>
